@@ -16,14 +16,20 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     flex-direction: column;
-    justify-content: space-around;
-    height: 400px;
+    justify-content: space-between;
     padding-left: 150px;
+    padding-right: 150px;
+    flex-grow: 0;
+
 }
 
 .header {
+    position: relative;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-top: 15px;
+    
 }
 a {
     font-size: 18px;
@@ -31,16 +37,19 @@ a {
 
 .links {
     display: flex;
-    flex-direction: row;
     flex-grow: 1;
+    gap: 30px;
+    justify-content: flex-end;
 }
 
 button {
     display: flex;
-    flex-shrink: 0;
     background: #3882F6;
     color: #F9FAF8;
-    padding: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    
 }
 
 .sub-header {
@@ -56,4 +65,56 @@ button {
 .container-sub {
     display: flex;
     flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    flex-grow: 1;
+    min-width: 600px;
+    padding-bottom: 100px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    flex-grow: 1;
+    padding: 50px;
+    gap: 50px;
+}
+
+.card-stack {
+    font-size: 18px;
+    color: #343d4a;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.image {
+    border-radius: 10px;
+    border-width: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-grow: 1;
 }
