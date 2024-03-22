@@ -21,7 +21,6 @@ body {
 }
 
 .header {
-    position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 100px;
@@ -135,7 +134,6 @@ button {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
-    text-align: left;
     gap: 20px;
 }
 
