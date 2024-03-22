@@ -43,10 +43,11 @@ button {
     display: flex;
     background: #3882F6;
     color: #F9FAF8;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 8px;
     margin-top: 10px;
     border: 0px;
+    font-weight: 800;
     
 }
 
@@ -95,6 +96,7 @@ button {
     padding: 50px 150px;
     gap: 50px;
     text-align: center;
+    margin: auto 200px;
     
 }
 
@@ -128,29 +130,49 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 150px;
+    padding: 100px 350px;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+    text-align: left;
+    gap: 20px;
 }
 
 .name {
-    font-size: 18px;
-    font-weight: bolder;
+    font-size: 24px;
+    font-weight: 800;
     font-style: normal;
     text-align: end;
+    padding-right: 50px;
 }
 
 .container-three {
     background-color: #3882F6;
     display: flex;
-    margin: 80px auto;
+    margin: 80px 150px;
     align-items: center;
-    padding: 40px 100px ;
+    justify-content: center;
+    padding: 40px 100px;
+    color: #F9FAF8;
+    gap: 100px;
+    border-radius: 10px;
 
 }
 
 .white-border {
     border: 2px solid #F9FAF8;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    color: #E5E7EB;
+    display: flex;
+    flex-shrink: 0;
 }
