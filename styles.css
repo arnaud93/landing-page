@@ -46,6 +46,7 @@ button {
     padding: 5px 10px;
     border-radius: 8px;
     margin-top: 10px;
+    border: 0px;
     
 }
 
@@ -57,6 +58,12 @@ button {
 .footer {
     margin-top: auto;
     background-color: #1f2937;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
 }
 
 .container-sub {
@@ -133,4 +140,17 @@ button {
     font-weight: bolder;
     font-style: normal;
     text-align: end;
+}
+
+.container-three {
+    background-color: #3882F6;
+    display: flex;
+    margin: 80px auto;
+    align-items: center;
+    padding: 40px 100px ;
+
+}
+
+.white-border {
+    border: 2px solid #F9FAF8;
 }
